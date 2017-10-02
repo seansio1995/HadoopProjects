@@ -12,7 +12,7 @@ public class JSONConverter {
 
         BufferedReader br = new BufferedReader(new FileReader("/Users/tfsp-h/Documents/jiuzhang/Hadoop/SentimentAnalysis-master/src/main/resources/output/part-r-00000"));
         String line = br.readLine();
-        FileWriter fileWriter = new FileWriter("/Users/tfsp-h/Documents/jiuzhang/Hadoop/SentimentAnalysis-master/src/main/resources/output/output.json");
+        FileWriter fileWriter = new FileWriter("/Users/tfsp-h/Documents/jiuzhang/Hadoop/sentiment-visualization/data/result.json");
 
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
